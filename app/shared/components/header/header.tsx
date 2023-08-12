@@ -1,7 +1,7 @@
 import Image from "next/image";
-import logoBgCream from "@/public/logo-cream-bg.svg";
-import logoBgPurple from "@/public/logo-purple-bg.svg";
-import logoBgYellow from "@/public/logo-yellow-bg.svg";
+import logoCreamBg from "@/public/logo-cream-bg.svg";
+import logoPurpleBg from "@/public/logo-purple-bg.svg";
+import logoYellowBg from "@/public/logo-yellow-bg.svg";
 
 type Props = {
   bgColor: number;
@@ -15,10 +15,10 @@ export default function Header({ bgColor }: Props) {
           <Image
             src={
               bgColor === 0
-                ? logoBgCream
+                ? logoCreamBg
                 : bgColor === 1
-                ? logoBgPurple
-                : logoBgYellow
+                ? logoPurpleBg
+                : logoYellowBg
             }
             width={52}
             height={21}
