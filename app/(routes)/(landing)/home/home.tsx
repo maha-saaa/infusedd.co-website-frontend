@@ -1,12 +1,12 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import Navbar from "@/app/shared/components/navbar/navbar";
+import Header from "@/app/shared/components/header/header";
 import cube from "@/public/cube.gif";
 
 const colors = ["#FDFAE3", "#C6C8F9", "#E7E97C"];
 
-export default function Hero() {
+export default function Home() {
   const [bgColor, setBgColor] = useState(0);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ export default function Hero() {
 
   return (
     <div style={{ backgroundColor: colors[bgColor] }}>
-      <Navbar bgColor={bgColor} />
+      <Header bgColor={bgColor} />
       <section
         className="flex flex-col min-h-screen items-center p-6"
         style={{ backgroundColor: colors[bgColor] }}

@@ -1,13 +1,13 @@
 import Image from "next/image";
-import logoBgCream from "@/public/logo-bg-cream.svg";
-import logoBgPurple from "@/public/logo-bg-purple.svg";
-import logoBgYellow from "@/public/logo-bg-yellow.svg";
+import logoBgCream from "@/public/logo-cream-bg.svg";
+import logoBgPurple from "@/public/logo-purple-bg.svg";
+import logoBgYellow from "@/public/logo-yellow-bg.svg";
 
 type Props = {
   bgColor: number;
 };
 
-export default function Navbar({ bgColor }: Props) {
+export default function Header({ bgColor }: Props) {
   return (
     <header className="m-6">
       <div className="flex flex-row items-center justify-center sm:justify-between">
