@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import Header from "@/app/shared/components/header/header";
+import Header from "@/app/components/ui/header/header";
 import cube from "@/public/cube.gif";
 
 const colors = ["#FDFAE3", "#C6C8F9", "#E7E97C"];
