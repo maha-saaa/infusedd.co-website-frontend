@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "../ui/header/header";
 import Image from "next/image";
-import cube from "@/public/cube.gif";
+import cube from "../../../public/cube.gif";
 
 const colors = ["#FDFAE3", "#C6C8F9", "#E7E97C"];
 

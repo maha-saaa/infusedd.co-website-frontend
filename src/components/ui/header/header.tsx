@@ -1,7 +1,7 @@
 import Image from "next/image";
-import logoCreamBg from "@/public/logo-cream-bg.svg";
-import logoPurpleBg from "@/public/logo-purple-bg.svg";
-import logoYellowBg from "@/public/logo-yellow-bg.svg";
+import logoCreamBg from "../../../../public/logo-cream-bg.svg";
+import logoPurpleBg from "../../../../public/logo-purple-bg.svg";
+import logoYellowBg from "../../../../public/logo-yellow-bg.svg";
 
 type Props = {
   bgColor: number;
